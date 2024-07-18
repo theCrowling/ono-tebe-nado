@@ -2,10 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 92px 24px 96px;
+  padding: 92px 24px 90px;
   margin: 0 auto;
   position: relative;
-  background-color: rgb(196, 196, 233);
 }
 
 .header__menu {
@@ -47,5 +46,59 @@
   line-height: 24.3px;
   width: 265px;
   padding-right: 25px;
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-image: url(/images/cover.jpg);
+  background-size: cover;
+  height: 757px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.cover__title {
+  margin: auto 0;
+  font-size: 100px;
+  font-weight: 700;
+
+}
+
+.aligned-text {
+  line-height: 115px;
+  letter-spacing: 0.3em;
+  margin-left: 50px;
+
+}
+
+.aligned-text_center {
+  line-height: 100px;
+  letter-spacing: 0.3em;
+  padding-top: 2px;
+  padding-left: 337px;
+}
+
+.aligned-text_right {
+  line-height: 100px;
+  letter-spacing: 0.3em;
+  padding-bottom: 12px;
+  padding-left: 635px;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 0.6em;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+
+
+.cover__description {
+
 }
 
